@@ -23,8 +23,8 @@ public class MacroNutritionTrackerApplication {
 
         BasicDataSource dataSource = new BasicDataSource();
         dataSource.setUrl("jdbc:postgresql://localhost:5432/DailyFoodIntake");
-        dataSource.setUsername("postgres");
-        dataSource.setPassword("postgres1");
+        dataSource.setUsername();
+        dataSource.setPassword();
         MacroNutritionTrackerApplication application = new MacroNutritionTrackerApplication(dataSource);
         application.run();
 
